@@ -6,6 +6,10 @@ Uses Prometheus datasource to get VPA metrics (lowerBound, upperBound, target, m
 
 Also uses Elasticsearch datasource to show `Eviction` and `too few replicas` events.
 
+![vpa-recommendations_top](vpa-recommendations_image1.png)
+
+![vpa-recommendations_bottom](vpa-recommendations_image2.png)
+
 Remember: Enable `verticalpodautoscalers` collector on `kube-state-metrics` (described [here](https://github.com/kubernetes/kube-state-metrics/blob/master/docs/verticalpodautoscaler-metrics.md#Configuration)).
 
 Credits: Based on vpa-dashboard from gardener.
